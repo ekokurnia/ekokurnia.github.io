@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="logo">eKlouds.net</div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="nav-bar">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Feature</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </header>
+        <script>
+            hamburger = document.querySelector(".hamburger");
+            hamburger.onclick = function() {
+                navBar =  document.querySelector(".nav-bar");
+                navBar.classList.toggle("open");
+            }
+        </script>
+        <div class="main">Halo Dunia!</div>
+        <hr>
+        <div class="main2"></div>
+</body>
+</html>
